@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witcherando</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontface.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="./icons/logo.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <script src="template.js" defer></script>
+</head>
+
+<body onload="render()">
+    <!-- TOP SECTION -->
+    <header>
+        <div class="logo">
+            <h2>Witcherando</h2>
+            <img src="./icons/logo.png" alt="Logo">
+        </div>
+        <div class="main-headline">
+            <p>Speisekarte</p>
+        </div>
+        <nav>
+            <img class="menu-btn" src="./icons/menu.png" alt="Menu">
+        </nav>
+    </header>
+    <!-- MAIN SECTION -->
+    <section class='main-container' id="mainContainer">
+        <div class='food-container' id="food">
+            <div class="restaurant-section">
+                <img src="./img/restaurant.jpg" alt="Restaurant">
+                <div class="restaurant-info">
+                    <div class="restaurant-logo-section">
+                        <img class="restaurant-logo" src="./icons/restaurant.png" alt="Restaurant Logo">
+                    </div>
+                    <div class="restaurant-headline">
+                        <h2>ZUM GOLDENEN STÖR</h2>
+                        <div>
+                            <img src="./icons/info.png" alt="Infos">
+                            <img src="./icons/heart.png" alt="Like">
+                        </div>
+                    </div>
+                    <div class="ratings">
+                        <img src="./icons/star-full.png" alt="Rating">
+                        <img src="./icons/star-full.png" alt="Rating">
+                        <img src="./icons/star-full.png" alt="Rating">
+                        <img src="./icons/star-full.png" alt="Rating">
+                        <img src="./icons/star-empty.png" alt="Rating">
+                        <p>1452 Bewertungen</p>
+                    </div>
+                    <div class="delivery-text">
+                        <img src="./icons/bag.png" alt="Cart">
+                        <p>Min. 10 Kr.</p>
+                        <p><b>&#183;</b></p>
+                        <img src="./icons/horse.png" alt="Delivery">
+                        <p>2 Kr.</p>
+                    </div>
+                    <div>
+                        <p>Die tatsächliche Lieferzeit kann von der gewünschten Lieferzeit abweichen.</p>
+                    </div>
+                    <div class="wrapper">
+                        <img src="./icons/search.png" alt="Restaurant">
+                        <a href="#category0">Vorspeisen</a>
+                        <a href="#category3">Hauptspeisen</a>
+                        <a href="#category6">Desserts</a>
+                        <a href="#category9">Getränke</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='shopping-cart shopping-cart-mobile' id="shoppingCart">
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Ein Restaurant empfehlen</a>
+            <a href="#">Impressum</a>
+            <a href="#">Jobs</a>
+            <a href="#">AGB</a>
+        </div>
+        <div>
+            <p>made by Ilona Koschi 2024</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

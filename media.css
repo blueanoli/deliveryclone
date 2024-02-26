@@ -1,0 +1,132 @@
+/* Media Query für Bildschirmgrößen bis 1125px */
+@media (max-width: 1125px) {
+    .shopping-cart {
+        display: none;
+    }
+    .food-container {
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .open-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        transform: translateX(50%);
+        position: fixed;
+        bottom: 64px;
+    }
+    .open-btn:hover{
+        background-color: #d26104;
+        color: white;
+    }
+    .shopping-cart-mobile{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        bottom: 64px;
+        z-index: 1;
+    }
+    .cart-item{
+        width: 60%;
+    }
+    .delivery-info{
+        width: 100%;
+    }
+    .close-btn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        z-index: 2;
+        background-color: white;
+        padding-right: 120px;
+    }
+    .close-btn img{
+        height: 30px;
+        width: 30px;
+    }
+    .close-btn:hover{
+        background-color: white;
+    }
+}
+@media (min-width: 1125px) {
+    .back-btn {
+        display: none;
+    }
+}
+/* Media Query für Bildschirmgrößen bis 450px */
+@media (max-width: 450px){
+    .headlines h2{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    .footer-links{
+        font-size: 14px;
+    }
+    .wrapper{
+        width: 100%;
+        font-size: 16px;
+        overflow-x: visible;
+        justify-content: center;
+    }
+    .wrapper a{
+        padding: 5px;
+    }
+    .wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    .back-to-top img{
+        height: 30px;
+        width: 30px;
+    }
+    .wrapper img{
+        display: none;
+    }
+    .close-btn{
+        padding-right: 20px;
+    }
+    .cart-item{
+        width: 90%;
+    }
+}
+/* Media Query für Bildschirmgrößen bis 380px */
+@media (max-width: 380px){
+    .headlines h2{
+        font-size: 16px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .restaurant-info p{
+        font-size: 14px;
+    }
+    .restaurant-headline h2{
+        font-size: 20px;
+        margin-block-start: 14px;
+    }
+    .restaurant-headline img{
+        margin-block-start: 14px;
+    }
+    .wrapper a{
+        font-size: 14px;
+    }
+    .logo h2{
+        display: none;
+    }
+    .footer-links{
+        white-space: nowrap;
+        gap: 8px;
+    }
+}
